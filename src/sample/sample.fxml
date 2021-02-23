@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #023B3F#023B3F;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="-4.0" layoutY="105.0" prefHeight="295.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Button fx:id="stopBtn" cache="true" layoutX="42.0" layoutY="193.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="121.0" style="-fx-background-color: #DC1104#DC1104;" text="PAUSE" textAlignment="CENTER" textFill="WHITE" visible="false">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Button>
+            <Button fx:id="startBtn" layoutX="531.0" layoutY="193.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="121.0" style="-fx-background-color: #27C109#27C109;" text="START" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Text fx:id="seconds" layoutX="216.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00:00.000" textAlignment="CENTER" wrappingWidth="267.888671875">
+               <font>
+                  <Font size="56.0" />
+               </font>
+            </Text>
+            <Text fx:id="secBuf" fill="#757575" layoutX="289.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="121.0">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text fx:id="secBuf1" fill="#757575" layoutX="289.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="121.0">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text fx:id="secBuf2" fill="#757575" layoutX="289.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="121.0">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text fx:id="secBuf3" fill="#757575" layoutX="289.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="121.0">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Button fx:id="circleBtn" layoutX="556.0" layoutY="92.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="85.0" style="-fx-background-color: LIGHTBLUE; -fx-background-radius: 30;" text="CIRLCE" textAlignment="CENTER" textFill="WHITE" visible="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </AnchorPane>
+      <Label layoutX="296.0" layoutY="32.0" text="Time:" textFill="WHITE">
+         <font>
+            <Font name="Wingdings 2" size="43.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
